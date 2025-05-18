@@ -246,5 +246,6 @@ client.unfocused #333333 #222222 #888888
 
 #App specific window config
 for_window [app_id="pavucontrol"] floating enable, move position pointer
+for_window [app_id="gpick"] floating enable
 
 include /etc/sway/config.d/*
